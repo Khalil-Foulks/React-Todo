@@ -1,6 +1,7 @@
 .taskList{
     display: flex;
-    flex: flow;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin: 10px;
 }
 .item{
@@ -11,6 +12,7 @@
     color: cornsilk;
     width: 45%;
     cursor: pointer;
+    text-align: center;
 }
 
 .item.completed {
