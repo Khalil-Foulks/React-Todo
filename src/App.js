@@ -55,10 +55,10 @@ class App extends React.Component {
   
   clearItem = event => {
     event.preventDefault();
-    this.setState( prevState=>{
-      const list = this.state.listArray.filter(item=>{
-        return !item.completed
-      })
+    this.setState({
+      listArray: this.state.listArray.filter(
+       item => !item.completed
+      )
     })
   }
 
